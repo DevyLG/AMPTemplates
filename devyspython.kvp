@@ -1,7 +1,7 @@
 Meta.DisplayName=DevysPython
 Meta.Description=Actually Runs python with the new update. You do gotta have a .env already.
 Meta.Arch=x86_64
-Meta.Author=Devy - Made with AMP Config Generator
+Meta.Author=Devy
 Meta.URL=
 Meta.MinAMPVersion=2.4.6.6
 Meta.SpecificDockerImage=
