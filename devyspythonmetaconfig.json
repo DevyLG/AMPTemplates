@@ -1,17 +1,7 @@
 [
     {
-        "ConfigFile": "serverfiles/token.token",
+        "ConfigFile": ".env",
         "ConfigType": "",
         "AutoMap": false
-    },
-    {
-        "ConfigFile": "serverfiles/Names.json",
-        "ConfigType": "json",
-        "AutoMap": true
-    },
-    {
-        "ConfigFile": "serverfiles/bot_data.json",
-        "ConfigType": "json",
-        "AutoMap": true
     }
 ]
