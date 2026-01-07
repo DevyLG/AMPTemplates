@@ -7,7 +7,7 @@
         "Subsections": [
             {
                 "Heading": "$root",
-                "SettingMapping": {
+                "SettingMappings": {
                     "DISCORD_TOKEN": "DISCORD_TOKEN"
                 }
             }
