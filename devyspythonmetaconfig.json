@@ -1,12 +1,17 @@
 [
     {
-        "ConfigFile": "bot_data.json",
+        "ConfigFile": "serverfiles/token.token",
+        "ConfigType": "",
+        "AutoMap": false
+    },
+    {
+        "ConfigFile": "serverfiles/Names.json",
         "ConfigType": "json",
         "AutoMap": true
     },
     {
-        "ConfigFile": "token.token",
-        "ConfigType": "",
-        "AutoMap": false
+        "ConfigFile": "serverfiles/bot_data.json",
+        "ConfigType": "json",
+        "AutoMap": true
     }
 ]

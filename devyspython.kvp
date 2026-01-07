@@ -1,7 +1,7 @@
 Meta.DisplayName=DevysPython
 Meta.Description=Runs New Python scripts! Just made sure you create a .env
 Meta.Arch=x86_64
-Meta.Author=DevyLG
+Meta.Author=DevyLG - Made with AMP Config Generator
 Meta.URL=
 Meta.MinAMPVersion=2.4.6.6
 Meta.SpecificDockerImage=
@@ -10,7 +10,7 @@ Meta.ContainerPolicy=Supported
 Meta.ContainerPolicyReason=
 Meta.Prerequsites=[]
 Meta.EndpointURIFormat=
-Meta.AppConfigId=0d3b11df-a5ff-4f59-956c-ca2f65485ee2
+Meta.AppConfigId=111934f1-5f62-4e25-9f6d-37f6d4d18e78
 App.AdminMethod=STDIO
 App.HasReadableConsole=true
 App.HasWritableConsole=true

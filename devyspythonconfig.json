@@ -1,9 +1,9 @@
 [
     {
-        "DisplayName": "Bots Token",
-        "Category": "Server Settings",
-        "Description": "Enter your bots token",
-        "Keywords": "bots,token",
+        "DisplayName": "Bot's Token",
+        "Category": "Python Settings",
+        "Description": "Enter the bots token",
+        "Keywords": "bot's,token",
         "FieldName": "",
         "InputType": "text",
         "IsFlagArgument": false,
@@ -12,7 +12,7 @@
         "DefaultValue": "",
         "Placeholder": "",
         "Suffix": "",
-        "Hidden": true,
+        "Hidden": false,
         "SkipIfEmpty": false,
         "EnumValues": {}
     }
