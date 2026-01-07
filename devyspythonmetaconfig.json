@@ -2,6 +2,16 @@
     {
         "ConfigFile": ".env",
         "ConfigType": "kvp",
-        "AutoMap": true
+        "ConfigFormat": "{0}={1}",
+        "AutoMap": false,
+        "Subsections": [
+            {
+                "Heading": "$root",
+                "SettingMapping": {
+                    "DISCORD_TOKEN": "DISCORD_TOKEN"
+                }
+            }
+            
+        ]
     }
 ]
