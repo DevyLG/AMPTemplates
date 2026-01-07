@@ -1,19 +1,17 @@
 [
     {
-        "DisplayName": "Bot's Token",
-        "Category": "Bot's Settings",
-        "Description": "Enter the token for the bot",
-        "Keywords": "bot's,token",
-        "FieldName": "DISCORD_TOKEN",
-        "InputType": "text",
-        "IsFlagArgument": false,
-        "ParamFieldName": "DISCORD_TOKEN",
-        "IncludeInCommandLine": false,
-        "DefaultValue": "",
-        "Placeholder": "",
-        "Suffix": "",
-        "Hidden": false,
-        "SkipIfEmpty": false,
-        "EnumValues": {}
+        "ConfigFile": ".env",
+        "ConfigType": "kvp",
+        "ConfigFormat": "{0}={1}",
+        "AutoMap": false,
+        "Subsections": [
+            {
+                "Heading": "$root",
+                "SettingMapping": {
+                    "DISCORD_TOKEN": "DISCORD_TOKEN"
+                }
+            }
+            
+        ]
     }
 ]
