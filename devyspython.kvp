@@ -1,7 +1,7 @@
-Meta.DisplayName=DevysPython
+Meta.DisplayName=DevysBot
 Meta.Description=Runs New Python scripts! Just made sure you create a .env
 Meta.Arch=x86_64
-Meta.Author=DevyLG - Made with AMP Config Generator
+Meta.Author=DevyLG
 Meta.URL=
 Meta.MinAMPVersion=2.4.6.6
 Meta.SpecificDockerImage=
