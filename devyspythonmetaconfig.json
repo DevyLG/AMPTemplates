@@ -1,1 +1,12 @@
-[]
+[
+    {
+        "ConfigFile": "bot_data.json",
+        "ConfigType": "json",
+        "AutoMap": true
+    },
+    {
+        "ConfigFile": "token.token",
+        "ConfigType": "",
+        "AutoMap": false
+    }
+]

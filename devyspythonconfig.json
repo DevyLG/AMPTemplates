@@ -1,1 +1,19 @@
-[]
+[
+    {
+        "DisplayName": "Bots Token",
+        "Category": "Server Settings",
+        "Description": "Enter your bots token",
+        "Keywords": "bots,token",
+        "FieldName": "",
+        "InputType": "text",
+        "IsFlagArgument": false,
+        "ParamFieldName": "",
+        "IncludeInCommandLine": false,
+        "DefaultValue": "",
+        "Placeholder": "",
+        "Suffix": "",
+        "Hidden": true,
+        "SkipIfEmpty": false,
+        "EnumValues": {}
+    }
+]
