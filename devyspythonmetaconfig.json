@@ -1,7 +1,7 @@
 [
     {
         "ConfigFile": ".env",
-        "ConfigType": "",
-        "AutoMap": false
+        "ConfigType": "kvp",
+        "AutoMap": true
     }
 ]
