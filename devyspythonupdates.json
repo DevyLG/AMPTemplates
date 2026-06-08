@@ -1,1 +1,34 @@
-[]
+[
+    {
+        "UpdateStageName": "Create Virtual Environment (Windows)",
+        "UpdateSourcePlatform": "Windows",
+        "UpdateSource": "Executable",
+        "UpdateSourceData": "python",
+        "UpdateSourceArgs": "-m venv serverfiles/venv",
+        "SkipOnFailure": true
+    },
+    {
+        "UpdateStageName": "Create Virtual Environment (Linux)",
+        "UpdateSourcePlatform": "Linux",
+        "UpdateSource": "Executable",
+        "UpdateSourceData": "python3",
+        "UpdateSourceArgs": "-m venv serverfiles/venv",
+        "SkipOnFailure": true
+    },
+    {
+        "UpdateStageName": "Install Dependencies (Windows)",
+        "UpdateSourcePlatform": "Windows",
+        "UpdateSource": "Executable",
+        "UpdateSourceData": "serverfiles/venv/Scripts/pip.exe",
+        "UpdateSourceArgs": "install -r serverfiles/requirements.txt",
+        "SkipOnFailure": true
+    },
+    {
+        "UpdateStageName": "Install Dependencies (Linux)",
+        "UpdateSourcePlatform": "Linux",
+        "UpdateSource": "Executable",
+        "UpdateSourceData": "serverfiles/venv/bin/pip",
+        "UpdateSourceArgs": "install -r serverfiles/requirements.txt",
+        "SkipOnFailure": true
+    }
+]
