@@ -4,7 +4,7 @@
         "UpdateSourcePlatform": "Windows",
         "UpdateSource": "Executable",
         "UpdateSourceData": "{{SystemPythonPathWin}}",
-        "UpdateSourceArgs": "{{VenvArgsWin}}",
+        "UpdateSourceArgs": "-m venv \"{{$FullBaseDir}}venv\"",
         "SkipOnFailure": true
     },
     {
@@ -12,15 +12,15 @@
         "UpdateSourcePlatform": "Linux",
         "UpdateSource": "Executable",
         "UpdateSourceData": "{{SystemPythonPathLinux}}",
-        "UpdateSourceArgs": "{{VenvArgsLinux}}",
+        "UpdateSourceArgs": "-m venv \"{{$FullBaseDir}}venv\"",
         "SkipOnFailure": true
     },
     {
         "UpdateStageName": "Install Dependencies (Windows)",
         "UpdateSourcePlatform": "Windows",
         "UpdateSource": "Executable",
-        "UpdateSourceData": "serverfiles/venv/Scripts/pip.exe",
-        "UpdateSourceArgs": "install -r serverfiles/requirements.txt",
+        "UpdateSourceData": "{{$FullBaseDir}}venv\\Scripts\\pip.exe",
+        "UpdateSourceArgs": "install -r \"{{$FullBaseDir}}requirements.txt\"",
         "UpdateSourceConditionSetting": "InstallRequirements",
         "UpdateSourceConditionValue": "1",
         "SkipOnFailure": true
@@ -29,8 +29,8 @@
         "UpdateStageName": "Install Dependencies (Linux)",
         "UpdateSourcePlatform": "Linux",
         "UpdateSource": "Executable",
-        "UpdateSourceData": "serverfiles/venv/bin/pip",
-        "UpdateSourceArgs": "install -r serverfiles/requirements.txt",
+        "UpdateSourceData": "{{$FullBaseDir}}venv/bin/pip",
+        "UpdateSourceArgs": "install -r \"{{$FullBaseDir}}requirements.txt\"",
         "UpdateSourceConditionSetting": "InstallRequirements",
         "UpdateSourceConditionValue": "1",
         "SkipOnFailure": true
