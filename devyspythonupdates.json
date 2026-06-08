@@ -3,16 +3,16 @@
         "UpdateStageName": "Create Virtual Environment (Windows)",
         "UpdateSourcePlatform": "Windows",
         "UpdateSource": "Executable",
-        "UpdateSourceData": "py",
-        "UpdateSourceArgs": "-{{PythonVersion}} -m venv serverfiles/venv",
+        "UpdateSourceData": "{{SystemPythonPathWin}}",
+        "UpdateSourceArgs": "{{VenvArgsWin}}",
         "SkipOnFailure": true
     },
     {
         "UpdateStageName": "Create Virtual Environment (Linux)",
         "UpdateSourcePlatform": "Linux",
         "UpdateSource": "Executable",
-        "UpdateSourceData": "python{{PythonVersion}}",
-        "UpdateSourceArgs": "-m venv serverfiles/venv",
+        "UpdateSourceData": "{{SystemPythonPathLinux}}",
+        "UpdateSourceArgs": "{{VenvArgsLinux}}",
         "SkipOnFailure": true
     },
     {
