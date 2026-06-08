@@ -51,6 +51,43 @@
         "EnumValues": {}
     },
     {
+        "DisplayName": "Python Version",
+        "Category": "Python Runner Settings",
+        "Description": "The Python version to use when creating the virtual environment (e.g., 3 for the latest Python 3, 3.10 for Python 3.10, or 3.11 for Python 3.11). Uses the Windows Python Launcher (py.exe) on Windows and system python executable on Linux.",
+        "Keywords": "version,python,py",
+        "FieldName": "PythonVersion",
+        "InputType": "text",
+        "IsFlagArgument": false,
+        "ParamFieldName": "PythonVersion",
+        "IncludeInCommandLine": false,
+        "DefaultValue": "3",
+        "Placeholder": "3",
+        "Suffix": "",
+        "Hidden": false,
+        "SkipIfEmpty": false,
+        "EnumValues": {}
+    },
+    {
+        "DisplayName": "Install requirements.txt",
+        "Category": "Python Runner Settings",
+        "Description": "If enabled, AMP will automatically install dependencies from requirements.txt during updates.",
+        "Keywords": "pip,requirements,install",
+        "FieldName": "InstallRequirements",
+        "InputType": "checkbox",
+        "IsFlagArgument": false,
+        "ParamFieldName": "InstallRequirements",
+        "IncludeInCommandLine": false,
+        "DefaultValue": "True",
+        "Placeholder": "",
+        "Suffix": "",
+        "Hidden": false,
+        "SkipIfEmpty": false,
+        "EnumValues": {
+            "False": "0",
+            "True": "1"
+        }
+    },
+    {
         "DisplayName": "Python Script File",
         "Category": "Python Runner Settings",
         "Description": "The main script file to execute (relative to the serverfiles directory).",
